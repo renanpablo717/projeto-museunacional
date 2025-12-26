@@ -87,6 +87,14 @@ section#visita{
     margin-top: 10px;
 }
 
+section#galeria a{
+    display: block;
+    background: url(../imagens/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 17px 15px 17px 15px;
+}
+
+
 h4{
     color: #86521a;
     text-transform: uppercase;
@@ -118,7 +126,7 @@ input.botao{
 
 fieldset{
     border: none;
-    
+
 
 }
 
