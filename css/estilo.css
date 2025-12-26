@@ -92,8 +92,13 @@ section#galeria a{
     background: url(../imagens/fundo-foto.png) no-repeat;
     float: left;
     padding: 17px 15px 17px 15px;
+    margin: 10px 0 0 20px;
 }
 
+section#galeria img{
+    margin-left: 2px;
+    margin-top: 3px;
+}
 
 h4{
     color: #86521a;
