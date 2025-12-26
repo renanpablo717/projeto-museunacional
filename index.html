@@ -15,10 +15,12 @@
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
     <![endif]-->
 </head>
+
 <body>
+
     <div id="container"> <!--Início Container-->
 
-        <header> <!--IInício do Header-->
+        <header> <!--Início do Header-->
 
             <div id="logo">
                 <h1><a href="">Museu Nacional</a></h1>
@@ -38,9 +40,51 @@
 
         </header> <!--Fim do Header-->
 
-        
+        <!--Início Principal-->
+        <div id="principal">
+            
+            <!--Início Conteúdo-->
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="imagens/museu.png" alt="Imagem do Museu Nacional">
+                </section>
+            </div>
+            <!--Fim Conteúdo-->
+
+            <!--Início Aside-->
+            <aside>
+                <section id="depoimento">
+                    <img src="imagens/depoimento.png" alt="Um depoimento">
+                </section>
+
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <fieldset>
+
+                            <legend>Selecione uma data</legend>
+
+                            <label for="data">Data</label>
+                            <input type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">Qtd pessoas</label>
+                            <input type="text" id="qtd" value="1">
+
+                        </fieldset>
+
+                        <input type="submit" value="Verificar Disponibilidade">
+
+                    </form>
+                </section>
+            </aside>
+            <!--Fim Aside-->
+
+
+        </div>
+        <!--Fim principal-->
 
     </div> <!--Fim Container-->
     
 </body>
+
 </html>

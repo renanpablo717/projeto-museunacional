@@ -20,12 +20,17 @@ a:link, a:active, a:visited{
 }
 
 a:hover{
-    color: #227115;
+    color: #fff;
 }
 
 
 /*Logo
 -------------------------*/
+
+#logo h1{
+    float: left;
+}
+
 #logo a{
     width: 248px;
     height: 21px;
@@ -61,3 +66,33 @@ nav ul li a:link{
 nav ul li a:hover{
     border-bottom: 1px solid #535858;
 }
+
+/*Principal
+--------------------------*/
+#conteudo{
+    width: 710px;
+    float: left;
+    background: green;
+}
+
+aside{
+    width: 350px;
+    float: right;
+    background: #ebe7dd;
+}
+
+section#visita{
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+
+h4{
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+/*Formulários
+---------------------------*/
