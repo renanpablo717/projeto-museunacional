@@ -96,3 +96,8 @@ h4{
 
 /*Formulários
 ---------------------------*/
+input{
+    height: 20px;
+    background: #fff;
+    border: none;
+}
